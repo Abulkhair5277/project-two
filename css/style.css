@@ -1,0 +1,59 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+body{
+	background: url(../img/bec.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+
+}
+
+.Registration-From{
+	position: absolute;
+	top:0%;
+	left: 40%;
+	transition: translate(-50%-50%);
+	width: 350px;
+
+}
+
+.Registration-From h1{
+	font-size: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 30px 0;
+}
+
+.Registration-From p{
+	font-size: 16px;
+	margin: 15px 0px;
+
+}
+
+.Registration-From input{
+	font-size: 15px;
+	padding: 10px 10px;
+	width: 100%;
+	border: 0px;
+	border-radius: 5px;
+	outline: none;
+}
+
+.Registration-From button{
+	font-size: 15px;
+	font-weight: bold;
+	margin: 20px 0px;
+	padding: 10px 15px;
+	width: 35%;
+	border: 0;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.Registration-From button:hover{
+	color: red;
+}
